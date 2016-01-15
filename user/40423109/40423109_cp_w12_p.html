@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423109-2</title>
+<title>40423109-12</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -26,29 +26,39 @@
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
     <h1>設計一甲</h1>
-    <p>40423109何宗哲</p>		
+    <p>40423109何宗哲</p>			
 </section>
 	
-<section id="hw-task-one">
-    <h1>影片大綱</h1>
-    <p>print('hello word')介紹python的用處及基礎的指令</p>
-    </section>
-    
-<section id="hw-task-one">
-    <h1>影片心得</h1>
-    <p>經過這禮拜的影片學習,利用電腦的運算及程式的應用,可以改變我們的生活.</p>
-    </section>
-    
-<section id="hw-task-one">
-    <h1>上課心得</h1>
-    <p>這禮拜教如何教影片放到網路上供別人下載,打入指令(python -m http.server)就可以知道自己的ip(ipconfig /all)位址,也知道怎麼修改投影片的內容,就可以做每個禮拜的作業,這個禮拜上課收穫非常多.</p>
-</section>
-    
 <section>
-    <h1>自評</h1>
+ <h1>程式碼</h1>
+ <p>#coding: utf-8
+# 猜數字遊戲
+import random
+   
+標準答案 = random.randint(1, 100)
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+ if 標準答案 < 你猜的數字:
+print("太大了，再猜一次 :)加油")
+else:
+print("太小了，再猜一次 :)加油")
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 += 1
+   
+print("猜對了！總共猜了", 猜測次數, "次")</p>
+
+ </section>
+ 
+ <section>
+ <h1>心得</h1>
+ <p>猜數字很有趣!!但程式碼很容易出問題!!</p>
+  </section>
+   
+ <section>
+ <h1>自評</h1>
     <p>分數:70分</p> 
-</section>
-				
+</section> 
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>
